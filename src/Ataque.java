@@ -11,5 +11,22 @@ public class Ataque {
         this.damage = damage;
         this.curacion = curacion;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getDamage() {
+        return damage;
+
+    }
+    
+    public int getCuracion() {
+        return curacion;
+    }
     
 }

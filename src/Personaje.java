@@ -8,4 +8,15 @@ public class Personaje {
         this.nombre = nombre;
 
     }
+
+
+    public String getNombre(){
+        return nombre;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+    
 }
