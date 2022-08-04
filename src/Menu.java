@@ -1,23 +1,23 @@
 import java.io.*;
 public class Menu {
     private BufferedReader buffer;
-    private Personaje prueba;
-    private int [] lista;
+    
+    
      
 
-     Ataque [] lista_ataques;
+     
 
     
     Menu(){
         buffer = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Probando Menu");
          
-        this.lista= new int[]{1, 2, 3, 4}; 
+        
         
 
 
 
-        this.prueba = new Personaje(1,"Fede", this.lista);
+        
         opciones();
     } 
     

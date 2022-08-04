@@ -29,11 +29,11 @@ public class Personaje {
 
         for(int i=0 ; i<SetupAtaques.listaAtaque.length ; i=i+1) {
             if (a == SetupAtaques.listaAtaque[i].getId()){
-                ataque = SetupAtaques.listaAtaque[i];
+                return SetupAtaques.listaAtaque[i];
             }
         }
         
-        return ataque;
+        return null;
 
     }
     public Ataque [] getAtaques(){
